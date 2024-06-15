@@ -14,7 +14,6 @@ def states_list():
     """display a HTML page with the states listed in alphabetical order"""
     states = storage.all("State").values()
     sorted_states = sorted(states, key=lambda state: state.name)
-    #states = sorted(list(storage.all("State").values()), key=lambda x: x.name)
     return render_template('7-states_list.html', states=sorted_states)
 
 
