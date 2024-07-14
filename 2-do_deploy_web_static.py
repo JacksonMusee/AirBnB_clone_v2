@@ -11,7 +11,7 @@ from fabric.operations import local
 from datetime import datetime
 
 
-env.hosts = ["34.204.91.71", "3.85.16.187"]
+env.hosts = ["100.24.238.120", "3.85.16.187"]
 env.key_filename = '~/.ssh/id_rsa'
 env.user = 'ubuntu'
 
