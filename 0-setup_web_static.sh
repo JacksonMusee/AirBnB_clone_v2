@@ -39,7 +39,7 @@ server {
     listen 80;
     listen [::]:80;
 
-    server_name cityspaces.tech www.cityspaces.tech 100.26.247.135 18.235.248.212;
+    server_name cityspaces.tech www.cityspaces.tech 34.204.91.71 3.85.16.187;
 
     location /hbnb_static {
         alias /data/web_static/current;
